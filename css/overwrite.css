@@ -1,0 +1,157 @@
+body {
+  background-color: #000000;
+}
+
+#Login {
+  position:fixed;
+  width: 30em;
+  height: 12em;
+  margin-top: -6em;
+  margin-left: -15em;
+  background-color: #DAA520;
+  top:50%;
+  left:50%;
+
+}
+
+#center{
+  background-color: #DAA520;
+  position:absolute;
+  left:10%;
+  height:100%;
+  width:80%;
+  min-width: 1250px;
+}
+
+#center-box{
+  position:relative;
+  border-style: double;
+  width:80%;
+  left:10%;
+  height:100%;
+}
+#projects-head{
+  text-align: center;
+}
+
+#project-name{
+  display:inline-block;
+  width:15%;
+  border-style:outset;
+}
+#project-description{
+  display:inline-block;
+  width:60%;
+  border-style:outset;
+}
+#project-tools{
+  display:inline-block;
+  width:15%;
+  border-style:outset;
+}
+
+.About-me {
+  position: relative;
+  display:inline-block;
+  font-size: large;
+  width:45%;
+  margin: 5px;
+}
+
+.picture {
+  margin:10px;
+  height:100px;
+}
+
+.form-group {
+  padding-top: 5px;
+}
+
+.middle {
+  margin-left: 13em;
+}
+
+#projects {
+  width:90%;
+  margin-left:5%;
+}
+
+#projects ul{
+  list-style: none;
+  //background-color: #222;
+  //text-align: center;
+  padding: 0;
+  margin-left: 0;
+}
+#projects li{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  //line-height: 40px;
+  text-align: center;
+  min-height: 60px;
+  border-bottom: 1px solid #888;
+  margin-bottom: 5px;
+}
+
+#projects div {
+  display:inline-block;
+}
+
+#projects .name {
+  vertical-align: middle;
+  width:17%;
+}
+#projects .Description {
+  width:66%;
+  vertical-align: middle;
+}
+#projects .Tools {
+  width:15%;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  /* Option 1 - Display Inline */
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
